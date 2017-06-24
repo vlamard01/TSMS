@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_temp"
+            android:title="Temperature" />
+        <item
+            android:id="@+id/nav_motion"
+            android:title="Motion" />
+        <item
+            android:id="@+id/nav_moisture"
+            android:title="moisture/humidity" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:title="Signout" />
+            <item
+                android:id="@+id/nav_rate"
+                android:title="Rate" />
+        </menu>
+    </item>
+
+</menu>
